@@ -1,0 +1,16 @@
+from: markdown-implicit_figures
+to: pdf
+
+output-file: analysis.pdf
+
+standalone: true
+pdf-engine: xelatex
+
+variables:
+  geometry:
+  - a4paper
+  - margin=2cm
+  mainfont: "Nimbus Sans"
+
+filters:
+- pandoc-plot

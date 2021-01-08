@@ -1,3 +1,5 @@
+## Unreal Engine 4
+
 # Visual Studio 2015 user specific files
 .vs/
 
@@ -72,3 +74,9 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+
+## Analysis
+
+plots
+*.pdf
