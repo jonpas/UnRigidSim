@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Object amount
 objects = [0, 10, 100, 500, 1000, 5000]
 
-# FPS [mean, low error, high error]
+# FPS [mode, low error, high error]
 cubes = [
     [119, 119, 100, 35, 10, 6],
     [1,     2,  10, 15,  2, 2],
